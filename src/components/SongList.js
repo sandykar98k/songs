@@ -31,7 +31,6 @@ class SongList extends Component {
 
 const mapStateToProps = state => {
   // Whatever we return from here it is going to show up in props of this component.
-  console.log(state);
   return { songs: state.songs };
 };
 
